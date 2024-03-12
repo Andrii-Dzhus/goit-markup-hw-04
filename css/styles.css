@@ -202,6 +202,20 @@ p {
     color: #434455;
 }
 
+.principles-item-icon{
+}
+
+.principles-item-con{
+    display: flex;
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
 /* Team */
 .team {
     background: #f4f4fd;
