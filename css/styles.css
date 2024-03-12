@@ -298,6 +298,10 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.team-item-list-fon:hover {
+background-color: #31d0aa;
+}
 /* Portfolio */
 .portfolio {
     padding-top: 120px;
@@ -374,4 +378,40 @@ p {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+}
+
+.footer-con{
+    display: flex;
+}
+
+.footer-list{
+    display: flex;
+    gap: 16px;
+}
+.footet-list-fon{
+    display: flex;
+    background-color: #4d5ae5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.footet-list-fon:hover{
+    background-color: #31d0aa;
+}
+
+.footer-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+
+}
+
+.footer-con-log{
+    margin-left: 120px;
 }
