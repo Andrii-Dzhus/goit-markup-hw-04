@@ -331,9 +331,12 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-lin-icon:hover
+.team-lin-icon:hover{
+background-color: #404bbf;
+}
+
 .team-lin-icon:focus {
-  background-color: #404bbf;
+  
 }
 /* Portfolio */
 .portfolio {
