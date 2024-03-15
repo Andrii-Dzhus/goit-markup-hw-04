@@ -390,7 +390,6 @@ p {
 
 .portfolio-item-img:hover .portfolio-img-text {
   transform: translateY(0);
-  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-img-text {
@@ -468,7 +467,8 @@ p {
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footet-link:hover,
-.footet-link:active {
+.footet-link:active,
+.footet-link:focus {
   background-color: #31d0aa;
 }
 
