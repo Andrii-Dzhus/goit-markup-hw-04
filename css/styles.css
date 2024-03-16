@@ -332,7 +332,8 @@ p {
 }
 
 .team-lin-icon:hover
-.team-lin-icon:active {
+.team-lin-icon:active,
+.team-lin-icon:focus {
   background-color: #404bbf;
 }
 /* Portfolio */
